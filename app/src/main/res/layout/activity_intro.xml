@@ -5,8 +5,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     tools:context=".intro.IntroActivity"
-    android:theme="@style/Theme.Pets"
-    android:background="@color/night">
+    android:theme="@style/Theme.Pets">
 
 
     <com.airbnb.lottie.LottieAnimationView

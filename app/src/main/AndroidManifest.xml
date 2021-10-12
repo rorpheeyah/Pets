@@ -13,9 +13,10 @@
         android:theme="@style/Theme.Pets">
         <activity
             android:name=".main.MainActivity"
-            android:exported="true" />
+            android:configChanges="uiMode" />
         <activity
             android:name=".intro.IntroActivity"
+            android:configChanges="uiMode"
             android:exported="true">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
